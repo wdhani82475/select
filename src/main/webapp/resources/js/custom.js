@@ -320,7 +320,7 @@ $(document).ready(function() {
 
 $(".cleditor").cleditor({
     width: "auto",
-    height: "auto"
+    height: "300px"
 });
 
 /* Modal fix */

@@ -727,7 +727,12 @@ public class SelectUserBaseController {
 
 
 
-
+    @ApiOperation(value = "教师详情", notes = "")
+    @RequestMapping(value = "/addNotice",method = RequestMethod.GET)
+    public ModelAndView addNotice(ModelAndView  modelAndView) {
+        modelAndView.setViewName("noticeModule/addNotice");
+        return modelAndView;
+    }
 
 
 

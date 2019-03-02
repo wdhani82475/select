@@ -212,6 +212,13 @@
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
 
+		<!-- 添加Ueditor依赖 -->
+		<!-- https://mvnrepository.com/artifact/com.gitee.qdbp.thirdparty/ueditor -->
+		<dependency>
+			<groupId>com.gitee.qdbp.thirdparty</groupId>
+			<artifactId>ueditor</artifactId>
+			<version>1.4.3.3</version>
+		</dependency>
 
 
 

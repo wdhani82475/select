@@ -127,7 +127,7 @@
                                     <c:choose>
                                         <c:when test="${empty requestScope.bugList }">
                                             <div class="alert alert-danger alert-dismissable fade show">
-                                                <button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
+                                                <%--<button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>--%>
                                                 <strong>郑其龙:</strong>
                                                 欢迎大家测试项目，并提出bug
                                             </div>

@@ -24,6 +24,7 @@
     <ul id="nav" style="display: block;">
         <!-- Main menu with font awesome icon -->
         <li><a href="${ctx}/test.jsp" target="mainFrame" ><i class="icon-list-alt"></i> 首页  </a></li>
+        <li><a href="${ctx}/selectUserBase/addNotice" target="mainFrame" ><i class="icon-list-alt"></i> 公告管理  </a></li>
         <%--<li><a href="${ctx}/selectBugLog/bugInitList" target="mainFrame" ><i class="icon-list-alt"></i> <b style="color: red">bug提交，谢谢 </b> </a></li>--%>
         <c:if test="${sessionScope.sessionUser.userType eq 0 }">
             <li class="has_sub"><a href="#"><i class="icon-list-alt"></i> 管理员信息  <span class="pull-right"><i class="icon-chevron-right"></i></span></a>
